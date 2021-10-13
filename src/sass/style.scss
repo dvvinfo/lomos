@@ -1,0 +1,24 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+@import 'libs/bootstrap-grid';
+// @import 'libs/slick';
+// @import 'libs/animate';
+
+@import 'base/variables';
+// @import 'base/animations';
+* {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+}
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+@import 'blocks/first-screen';
+@import 'blocks/program';
+@import 'blocks/marathon';
+@import 'blocks/three-days';
+@import 'base/media'
